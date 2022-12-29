@@ -1,0 +1,107 @@
+.services_container{
+    display: flex;
+    justify-content: center;
+    
+}
+.services_main{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.services_main h2{
+    color: #ca416e;
+    margin-bottom: 1rem;
+    font-size: 4.5rem;
+    transition: 0.5s;
+    margin-top: 5rem;
+}
+.services_main h2:hover{
+    color: #ca416e;
+    color :rgb(192, 191, 191)
+    
+}
+
+.services_line{
+    height: 0.2rem;
+    background-color: rgb(192, 191, 191);
+    width: 20%;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+    margin-top: -1rem;
+}
+.services_innerDiv1{
+    color: rgb(192, 191, 191);
+    font-size: 1.3rem;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid #ca416e;
+    transition: 0.5s;
+}
+.services_innerDiv1:hover{
+    background-color: #ca416e;
+}
+.innerDiv2{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.innerDiv21{
+    margin-top: 3rem;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 1rem 1rem; */
+    /* justify-content: center; */
+    height:27rem;
+    width: 20rem;
+    border: 2px solid #ca416e;
+    color:#ca416e;
+    /* text-align: center; */
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    
+}
+.innerDiv211{
+    height: 5rem;
+    width: 100%;
+    margin: -2px;
+    /* border-radius: 0rem 0rem 1.5rem 1.5rem; */
+    border: 2px solid #ca416e;
+    text-align: center;
+    
+    
+}
+.innerDiv211 h2{
+    margin-top: 0;
+    font-size: 3rem;
+    margin-left:0.5rem;
+}
+.innerDiv212{
+    padding: 1rem 1rem;
+    color: rgb(192, 191, 191);
+    font-size: 1.2rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.7rem;
+    /* margin: auto; */
+   transition: 0.5s;
+   height: 100%;
+}
+.innerDiv212:hover{
+        background-color: #ca416e;
+        height: 100%;
+        border-radius: 0 0 1.4rem 1.4rem;
+        
+}
+
+@media screen and (max-width:1400px){
+    
+    .innerDiv2{
+        flex-wrap: wrap;
+    }
+}

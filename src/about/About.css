@@ -1,0 +1,107 @@
+
+.about_main{
+    /* margin-top: 1rem; */
+    background-color: #0c1023;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 10rem;
+    cursor: default;
+}
+.about_innerDiv1{
+    width: 40%;
+    padding: 5rem 4rem;
+}
+.about_innerDiv2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 2rem 3rem;
+}
+.about_line{
+    height: 0.2rem;
+    background-color: rgb(192, 191, 191);
+    width: 70%;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.about_innerDiv2 h2{
+    display: flex;
+    color: #ca416e; 
+    transition: 0.5s;
+    font-size: 3rem;
+    margin-left: -0.5rem;
+    margin-bottom: 0.1rem;
+   
+
+}.about_innerDiv1 img{
+    width: 28rem;
+    height: 32rem;
+    border-radius: 3rem;
+    border: 0.2rem solid #ca416e;
+
+}
+.about_innerDiv2 p{
+    
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(192, 191, 191);
+}
+.about_innerDiv2 h2:hover{
+color: rgb(192, 191, 191);
+}
+
+
+@media screen and (max-width:1000px) and (min-width:700px){
+    .about_main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .about_innerDiv2{
+        width: 100%;
+       padding: 1rem;
+       align-items: center;
+       margin:auto;
+       /* text-align: center; */
+        
+    }
+    .about_innerDiv1{
+        padding: 1rem;
+        width: 50%;
+    }
+    .about_innerDiv1 img{
+        width: 100%;
+        height: 22rem;
+    }
+    
+}
+@media screen and (max-width:699px){
+    .about_main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .about_innerDiv2{
+        width: 100%;
+       padding: 1rem;
+       align-items: center;
+       margin:auto;
+       /* text-align: center; */
+        
+    } 
+    .about_innerDiv1 img{
+        width: 100%;
+        height: 22rem;
+    }  
+    .about_innerDiv1{
+        padding: 1rem;
+        width: 80%;
+    }
+}

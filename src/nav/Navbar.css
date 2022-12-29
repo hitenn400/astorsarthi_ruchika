@@ -1,0 +1,125 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} */
+body{
+    opacity: 0.9;
+    background-color: #0c1023; 
+}
+.hamburger-menu{
+    display: none;
+}
+.navD{
+    position: fixed;
+    top:0rem;
+    width: 100%;
+    opacity: 0.95 !important;
+    background-color: #0c1023;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    gap: 1.5rem; 
+    z-index: 1;
+    
+}
+.navMobile{
+    position: fixed;
+    top:0rem;
+    width: 100%;
+    opacity: 0.8 !important;
+    background-color: #0c1023;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: flex-start  ; */
+    /* align-items: flex-start ; */
+    transition: 0.5s;
+    gap: 1rem; 
+    z-index: 1;
+}
+.nav_navInner1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    color: white;
+    margin-left: 6rem;
+    
+    cursor: default;
+
+}
+.nav_navInner2{
+    opacity: 0.9;
+    background-color: #0c1023;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.5rem; 
+    
+    
+}
+.nav_mobile{
+    opacity: 0.9;
+    background-color: #0c1023;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem; 
+    margin-left: 2rem;
+    align-items: center;
+    transition: 0.5s;
+   
+    
+}
+nav a{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    text-decoration: none;
+    color: white;
+    cursor:default;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    
+  
+    transition: 0.5s;
+    
+}
+nav  a:hover{
+    color: #ca416e;
+    
+}
+nav  a.active{
+    
+    color: #ca416e;
+}
+.cross-menu{
+    display: none;
+}
+@media screen and (max-width:998px){
+    .hamburger-menu{
+        display:block;
+        /* font-size: 2rem; */
+        
+        transition: 0.5s;
+
+        /* margin:; */
+    }
+    .cross-menu{
+        display: block;
+    }
+    .nav_navInner1{
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+   
+    nav{
+        gap : 1rem;
+        
+    }
+    .nav_navInner2{
+        display: none;
+    }
+}

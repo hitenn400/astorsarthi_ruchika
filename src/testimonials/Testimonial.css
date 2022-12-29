@@ -1,0 +1,43 @@
+.testimonial_main{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    justify-content: center;
+    
+    
+}
+
+.testimonial_innerDiv1 h2{
+    color: #ca416e;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    transition: 0.5s;
+    margin-top: 5rem;
+}
+.testimonial_innerDiv1 h2:hover{
+    color: #ca416e;
+    color :rgb(192, 191, 191)
+    
+}
+
+.testimonial_line{
+    height: 0.2rem;
+    background-color: rgb(192, 191, 191);
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+    margin-top: -1rem;
+}
+.testimonial_swiper{
+    margin-top: 2rem;
+}
+@media screen and (max-width:700px){
+    .testimonial_line{
+        display: none;
+    }
+    .testimonial_innerDiv1 h2{
+        font-size: 3rem;
+    }
+}
